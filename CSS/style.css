@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: absolute;
+  top: -14%;
+}
+header img {
+  width: 300px;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main h2 {
+  text-shadow: 2px 3px 0px #898999;
+  color: whitesmoke;
+  font-size: 40px;
+}
+.btn-Box {
+  padding: 20px;
+}
+.btn-Box button {
+  padding: 12px 30px;
+  border-radius: 60px;
+  font-size: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#btn1 {
+  background-color: #051937;
+  color: white;
+  margin-right: 50px;
+}
+#btn2 {
+  background-color: #a7eb11;
+  color: white;
+}
+span {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.arrow-btn-grp {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+h4 {
+  text-shadow: 2px 3px 0px #898999;
+  color: whitesmoke;
+  margin: 20px;
+  font-size: 18px;
+}
+.arrow-btn-grp div {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.arrow-btn-grp div:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.arrow-btn-grp div i {
+  font-size: 18px;
+}
+.right-top i {
+  transform: rotate(-40deg);
+}
+.left-bottom i {
+  transform: rotate(40deg);
+}
+.right-bottom i {
+  transform: rotate(-230deg);
+}
+.left-top i {
+  transform: rotate(40deg);
+}
+.radial i {
+  transform: rotate(-100deg);
+}
+
+.code-editor {
+  max-width: 500px;
+  background-color: #1d1e22;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 2px;
+  margin-top: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.title {
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 1.57px;
+  color: rgb(212 212 212);
+}
+.editor-content {
+  margin: 0 10px 10px;
+  color: white;
+}
+.code-box {
+  width: auto;
+  padding: 25px 15px;
+  color: white;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border-left: 3px solid white;
+  cursor: copy;
+}
