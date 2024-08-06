@@ -80,7 +80,7 @@ allArrow.forEach((arrow, index) => {
       codeBox.innerHTML = `background-image: linear-gradient(${"to left top"}, ${hexCode1},${hexCode2})`;
     } else if (arrow.className == "radial") {
       main.style.backgroundImage = `radial-gradient(${"circle"}, ${hexCode1},${hexCode2})`;
-      codeBox.innerHTML = `background-image: radial-gradient(${"to left top"}, ${hexCode1},${hexCode2})`;
+      codeBox.innerHTML = `background-image: radial-gradient(${"circle"}, ${hexCode1},${hexCode2})`;
     }
   });
 });
